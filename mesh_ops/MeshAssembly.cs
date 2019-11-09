@@ -4,7 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+#if !G3_USING_UNITY
 using System.Threading.Tasks;
+#endif
 using g3;
 
 namespace gs
